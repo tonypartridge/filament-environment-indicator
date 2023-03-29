@@ -27,6 +27,8 @@ Out of the box, this plugin adds a colored border to the top of the admin panel 
 
 You can customize any behaviour, by using Filament's `::configureUsing()` syntax inside your ServiceProviders `boot()` method.
 
+Note, when using the below options you need to define the use of: `use pxlrbt\FilamentEnvironmentIndicator\FilamentEnvironmentIndicator;` in your providers header.
+
 ### Customizing the view
 Use `php artisan vendor:publish --tag="filament-environment-indicator-views"` to publish the view to the `resources/views/vendor/filament-environment-indicator` folder. After this you can customize it as you wish!
 
